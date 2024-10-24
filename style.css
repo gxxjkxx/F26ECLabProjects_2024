@@ -1,108 +1,87 @@
-body{
-    margin: 0px; 
+body {
+    margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    }
+}
 
-
- .top-bar {
+.top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #ecc198ee;
-
 }
 
-.top-bar img{
+.top-bar img {
     float: left;
     height: 75px;
 }
-    
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: #333;
     font-weight: 700;
-    margin:0 5px;
+    margin: 0 15px;
 }
 
-.banner{
-    width: 60%;
-
+.banner {
+    width: 100%;
 }
 
-.container img{
-    width: 60%;
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    margin-top: 20px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 100%;
     padding: 5px;
 }
 
-.footer p{
-align-content: center;
-padding: 20px;
-
+.footer {
+    background-color: #ecc198ee;
+    padding: 20px 0;
 }
 
-.container{ 
-    float: left;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    background-color: antiquewhite;
-}
-.service{
-    margin-top: 60px;
-}
-.contact{
-padding: 30px;
-width:80%;
-	max-width: 600px;
-	margin:50px auto;
-	padding: 20px;
-	background-color: #fff;
-	border-radius:10px;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-
-}
-
-.contact h1{
+.footer p {
+    margin: 0;
     text-align: center;
-	margin-bottom: 20px;
-	color:#333;
-
 }
 
-.form textarea{
-    display:block;
-	width:100%;
-	margin-bottom:10px;
-	padding:10px;
-	border:none;
-	border-radius:5px;
-	background-color:#f7f7f7;
-	color:#333;
-
+.service h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
 }
 
-.form textarea:focus{
-    outline:none;
-	box-shadow: 0 0 5px #333;
-
-}
-.form button{
-    display: block;
-	width:100%;
-	padding: 10px;
-	border:none;
-	border-radius:5px;
-	background-color:#BD9A7A;
-	color:#fff;
-	cursor:pointer;
-	transition: 0.3s ease;
-
+.service button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BD9A7A;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.form button:hover{
-    background-color:#555;
-
+.service button:hover {
+    background-color: #555;
 }
