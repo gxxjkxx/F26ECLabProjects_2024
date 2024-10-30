@@ -85,3 +85,78 @@ body {
 .service button:hover {
     background-color: #555;
 }
+
+/* Existing styles omitted for brevity */
+
+/* Contact Us Page Styling */
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #BD9A7A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.contact a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #BD9A7A;
+}
